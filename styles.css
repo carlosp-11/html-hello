@@ -1,0 +1,46 @@
+body{
+	font-family: "roboto";
+}
+.portable{
+	display: flex;
+}
+.justificado{
+	justify-content: space-between;
+}
+.picFrame{
+	display: block;
+	margin: auto;
+	background: lightgrey;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.imagen {
+	object-fit: fill;
+	width: 100%;
+	padding: 10px 0px;
+}
+.title{
+	background: white;
+	text-align: center;
+}
+.centrado{
+	width: 530px;
+	background: white;
+	margin: auto;
+	margin-bottom: 100px;	
+}
+.pad1{
+	padding:10px;
+}
+.pad2{
+	padding-left:10px;
+	padding-right:10px;
+}
+.borderline{
+	/*border-color: lightgrey;*/
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+.greyFont{
+	color: grey;
+}
